@@ -2,7 +2,7 @@ pipeline {
  agent any
  environment {
  PROJECT_ID = 'tribal-cortex-266416'
- CLUSTER_NAME = 'kube-cluster-superleague'
+ CLUSTER_NAME = 'kubercluster1'
  LOCATION = 'us-central1-a'
  CREDENTIALS_ID = 'kubernetes'
  }
@@ -27,7 +27,7 @@ pipeline {
  stage("Build image") {
  steps {
  script {
- myapp = docker.build("surajitkundu1904/kube8s:${env.BUILD_ID}")
+ myapp = docker.build("guptapriyanka1986/kube8s:${env.BUILD_ID}")
  }
  }
  }
