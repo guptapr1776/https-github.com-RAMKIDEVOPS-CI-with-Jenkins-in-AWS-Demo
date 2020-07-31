@@ -1,4 +1,4 @@
-peline {
+pipeline {
  agent any
  environment {
  PROJECT_ID = 'tribal-cortex-266416'
