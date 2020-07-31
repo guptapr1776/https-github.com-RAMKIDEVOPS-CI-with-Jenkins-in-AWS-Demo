@@ -2,7 +2,7 @@ pipeline {
  agent any
  environment {
  PROJECT_ID = 'decent-habitat-283302'
- CLUSTER_NAME = 'kubercluster1'
+ CLUSTER_NAME = 'kubercluster-1'
  LOCATION = 'us-central1-a'
  CREDENTIALS_ID = 'kubernetes'
  }
